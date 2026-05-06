@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 30px;
+    
+    background-color: rgb(60, 60, 60);
+    height: fit-content;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.login:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    display: flex;
+    color: greenyellow;
+    padding: 50px;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+
+h2{
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url();
+}
+
+button{
+    padding: 5px;
+    display: flex;
+    margin-top: 10px;
+    background-color: greenyellow;
+    border:0cap;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+a{
+    margin-top: 10px;
+    padding: 10px;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+
+input{
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    width: 280px;
+    border-radius: 10px;
+    border: 2.5px solid greenyellow;
+    color: white;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0);
+}
+
+input:focus{
+    outline: none;
+    
+}
